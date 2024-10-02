@@ -1,0 +1,73 @@
+/* src/Card.css */
+
+.card { /* Change to .card */
+    
+    background-color: #930a0a81; /* Off-white background */
+    border: 1px solid #cbe4d9; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside cards */
+    margin: 10px 0; /* Space between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+  }
+  
+  .card:hover { /* Change to .card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+    cursor: pointer;
+  }
+  
+  .title {
+    margin: 0; /* No margin for title */
+    font-size: 80px; /* Font size for title */
+  }
+  
+  .status,
+  .priority,
+  .user {
+    margin: 5px 0; /* Margin for other texts */
+    color: #666; /* Grey color for text */
+  }
+  
+  /* .column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.ticket {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+     */
+
+
+     .card {
+        background-color: #930a0a81; /* Off-white background */
+        border: 1px solid #cbe4d9; /* Light grey border */
+        border-radius: 5px; /* Rounded corners */
+        padding: 10px; /* Padding inside cards */
+        margin: 10px 0; /* Space between cards */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+        box-sizing: border-box; /* Ensure padding/border don't increase size */
+      }
+      
+      .card:hover {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+        cursor: pointer;
+      }
+      
+      .title {
+        margin: 0;
+        font-size: 8px; /* Reduced font size for better display */
+      }
+      
+      .status,
+      .priority,
+      .user {
+        margin: 5px 0; /* Margin for other texts */
+        color: #666; /* Grey color for text */
+      }
+      

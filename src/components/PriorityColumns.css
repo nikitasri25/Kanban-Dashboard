@@ -1,0 +1,48 @@
+/* .priority-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.ticket {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+} */
+
+
+.priority-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Add spacing between columns */
+  }
+  
+  .column {
+    flex: 1; /* Make all columns equal width */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    min-height: 300px; /* Adjust the height as needed */
+  }
+  
+  .column h3 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .ticket {
+    padding: 8px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+    background-color: #fff;
+    font-size: 0.9em; /* Adjust font size for readability */
+    display: block; /* Display tickets in block format */
+  }
+  

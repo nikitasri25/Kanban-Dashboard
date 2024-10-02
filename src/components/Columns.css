@@ -1,0 +1,63 @@
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    flex-wrap: wrap; /* Wrap columns if the screen is too small */
+    gap: 20px; /* Add space between columns without overlapping */
+    box-sizing: border-box; /* Ensure padding and borders are included in the element size */
+  }
+  
+  /* Styles for individual columns */
+  .column {
+    flex: 1; /* Each column takes up equal space */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border around columns */
+    margin: 10px 0; /* Space between rows */
+    background-color: #f9f9f9; /* Light background for columns */
+    border-radius: 8px; /* Rounded corners for columns */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease;
+    box-sizing: border-box; /* Include padding/border in element size */
+    max-width: 300px; /* Limit column width */
+  }
+  
+  /* Different background colors for each priority group */
+  .no-priority {
+    background-color: #e0e0e0;
+  }
+  
+  .urgent {
+    background-color: #ffcccc;
+  }
+  
+  .high {
+    background-color: #ffe6b3;
+  }
+  
+  .medium {
+    background-color: #ffffb3;
+  }
+  
+  .low {
+    background-color: #ccffcc;
+  }
+  
+  /* Styling for column headers */
+  .column h3 {
+    text-align: left;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Hover effect for columns */
+  .column:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card inside columns */
+  .card {
+    margin: 10px 0;
+  }
+  
