@@ -104,7 +104,7 @@ import Navbar from './components/Navbar';
 import StatusColumns from './components/StatusColumns'; 
 import PriorityColumns from './components/PriorityColumns'; 
 import UserColumns from './components/UserColumns'; 
-import SortedByTitle from './components/Sortedbytitle'; // Import the new component
+//import SortedByTitle from './components/Sortedbytitle'; // Import the new component
 import './App.css';
 
 const App = () => {
